@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -8,6 +9,13 @@ h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
+}
+
+.calltoaction {
+  text-align: center;
+  font-family: 'Montserrat';
+  color: white;
+  padding-top: 5%;
 }
 
 h2 {
@@ -125,4 +133,49 @@ h3 {
   padding: 7% 15%;
   background-color: white;
   position: relative;
+}
+
+#cta {
+  background-color: #ff4c68;
+}
+
+
+.footer {
+  margin-top: 2%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.ctabuttons {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.copy{
+  margin-top: 1%;
+  color: #8f8f8f;
+  font-size: .75rem;
+  padding-bottom: 1%;
+}
+
+.footer-btns {
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #8f8f8f;
+}
+
+.footer-btns:hover {
+  color: black;
+}
+
+@media (max-width: 1020px) {
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
